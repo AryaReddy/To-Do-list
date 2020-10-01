@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+
+
+    <!-- <input type="checkbox" id="check">
+        <label for="check">
+            <i class="material-icons" id="btn">menu</i>
+            <i class="material-icons" id="=cancel">cancel</i>
+        </label>
+        <div class="sidenav">
+            <header>My app</header>
+            <ul>
+                <li><a href="#"><i class="material-icons">work</i>Work</a></li>
+                <li><a href="#"><i class="material-icons">flight</i>Flight</a></li>
+                <li><a href="#"><i class="material-icons">home</i>home</a></li>
+                <li><a href="#"><i class="material-icons">shopping_cart</i>shopping</a></li>
+            </ul>
+        </div> -->
+    <div class="container">
+
+        <h2>TO-DO List with localstorage</h2><br>
+        <pre>"<i>a little</i> PROGRESS EACH DAY
+ <i>adds up to</i> BIG <Big>Results</Big>"<i class="material-icons" >book</i></pre>
+        <p>have a good day :)</p>
+        <form class="todo-form">
+            <input type="text" class="todo-input" placeholder="your task for today...">
+            <button type="submit" class="add-button"><i class="material-icons">add</i></button>
+
+        </form>
+
+        <ul class="todo-items">
+            <!-- dummy item -->
+            <li class="item" data-key="1594003133171">
+                <input class="checkbox" type="checkbox">
+                <button class="delete-button"><i class="material-icons">delete</i></button>
+                <!-- <button class="delete-button">X</button> -->
+
+            </li>
+        </ul>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
